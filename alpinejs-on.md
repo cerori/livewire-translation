@@ -8,7 +8,7 @@
 <button x-on:click="alert('안녕하세요!')">인사하기</button>
 ```
 
-> `x-on`은 HTML 속성이 대소문자를 구분하지 않기 때문에 소문자 이름의 이벤트만 수신할 수 있습니다. `x-on:CLICK`을 작성하면 'click'이라는 이름의 이벤트를 수신합니다. camelCase 이름의 사용자 정의 이벤트를 수신해야 하는 경우, 이 제한을 해결하기 위해 [`.camel` 헬퍼](#camel)를 사용할 수 있습니다. 또는 [`x-bind`](/directives/bind#bind-directives)를 사용하여 자바스크립트 코드에서 요소에 `x-on` 디렉티브를 연결할 수 있습니다(이 경우 대소문자가 보존됩니다).
+> `x-on`은 HTML 속성이 대소문자를 구분하지 않기 때문에 소문자 이름의 이벤트만 수신할 수 있습니다. `x-on:CLICK`을 작성하면 'click'이라는 이름의 이벤트를 수신합니다. camelCase 이름의 사용자 정의 이벤트를 수신해야 하는 경우, 이 제한을 해결하기 위해 [`.camel helper`](#camel)를 사용할 수 있습니다. 또는 [`x-bind`](/directives/bind#bind-directives)를 사용하여 자바스크립트 코드에서 요소에 `x-on` 디렉티브를 연결할 수 있습니다(이 경우 대소문자가 보존됩니다).
 
 ## 축약 문법
 
