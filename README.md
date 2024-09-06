@@ -1,4 +1,5 @@
 ## Essentials
+### [Actions](https://github.com/cerori/livewire-translation/blob/main/livewire-actions.md)
 ### [Nesting Components](https://github.com/cerori/livewire-translation/blob/main/livewire-Hydration.md)
 
 ## Features
