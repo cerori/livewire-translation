@@ -36,9 +36,9 @@ class Dashboard extends Component
 </div>
 ```
 
-이 페이지의 초기 렌더링에서 `Dashboard` 컴포넌트는 `<livewire:todo-list />`를 만나면 그 자리에 렌더링합니다. `Dashboard`에 대한 후속 네트워크 요청에서는 중첩된 `todo-list` 컴포넌트가 이제 페이지에서 독립적인 컴포넌트이기 때문에 렌더링을 건너뜁니다. 중첩 및 렌더링 뒤의 기술적 개념에 대한 자세한 정보는 [중첩된 컴포넌트가 "아일랜드"인 이유](/docs/understanding-nesting#every-component-is-an-island)에 대한 문서를 참조하세요.
+이 페이지의 초기 렌더링에서 `Dashboard` 컴포넌트는 `<livewire:todo-list />`를 만나면 그 자리에 렌더링합니다. `Dashboard`에 대한 후속 네트워크 요청에서는 중첩된 `todo-list` 컴포넌트가 이제 페이지에서 독립적인 컴포넌트이기 때문에 렌더링을 건너뜁니다. 중첩 및 렌더링 뒤의 기술적 개념에 대한 자세한 정보는 [중첩된 컴포넌트가 "아일랜드"인 이유](/understanding-nesting.md#every-component-is-an-island)에 대한 문서를 참조하세요.
 
-컴포넌트 렌더링 구문에 대한 자세한 정보는 [컴포넌트 렌더링](/docs/components#rendering-components) 문서를 참조하세요.
+컴포넌트 렌더링 구문에 대한 자세한 정보는 [컴포넌트 렌더링](/components.md#rendering-components) 문서를 참조하세요.
 
 ## 자식 컴포넌트에 props 전달하기
 
